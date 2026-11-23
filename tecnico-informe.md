@@ -46,194 +46,126 @@ Asimismo, las soluciones de NVIDIA favorecen la convergencia entre las tecnolog�
 
 **Definición**
 
-La inteligencia artificial (IA) es una rama de la informática que desarrolla sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el reconocimiento de patrones, el aprendizaje, la resolución de problemas, la generación de contenido y la toma de decisiones mediante el análisis de datos.
+La inteligencia artificial (IA) es una tecnología que permite desarrollar sistemas capaces de aprender, analizar datos, reconocer patrones y tomar decisiones mediante algoritmos y modelos computacionales.
 
 **Características principales**
 
-- Capacidad de aprendizaje a partir de grandes volúmenes de datos mediante técnicas de Machine Learning y Deep Learning.
-- Procesamiento paralelo de información mediante unidades de procesamiento gráfico (GPU).
-- Automatización de tareas y optimización de procesos complejos.
-- Capacidad de realizar predicciones, reconocer patrones y generar contenido.
-- Adaptabilidad a diferentes sectores y necesidades empresariales.
+- Aprendizaje automático (Machine Learning) y aprendizaje profundo (Deep Learning).
+- Procesamiento paralelo de grandes volúmenes de datos mediante GPU.
+- Automatización de tareas, análisis predictivo y generación de contenido.
 
 **Aplicación en la empresa**
 
-La inteligencia artificial constituye uno de los principales pilares del modelo de negocio de NVIDIA. La empresa desarrolla arquitecturas de hardware y plataformas de software destinadas al entrenamiento, optimización y ejecución de modelos de IA, entre las que destacan NVIDIA CUDA, NVIDIA TensorRT y NVIDIA AI Enterprise.
+NVIDIA desarrolla plataformas de hardware y software para el entrenamiento y la ejecución de modelos de IA, como CUDA, TensorRT y NVIDIA AI Enterprise.
 
-A nivel interno, NVIDIA ha desarrollado ChipNeMo, un modelo de lenguaje especializado en el diseño de semiconductores, entrenado con documentación técnica y código interno de la empresa. Su finalidad es asistir a los ingenieros, facilitar la consulta de información técnica y optimizar determinadas tareas de desarrollo de chips.
-
-Otro ejemplo de aplicación es NVIDIA BioNeMo, una plataforma de inteligencia artificial orientada a la investigación biomolecular y al descubrimiento de medicamentos. Empresas farmacéuticas como Astellas Pharma utilizan esta tecnología para desarrollar modelos capaces de predecir las propiedades de nuevos anticuerpos.
+Un ejemplo de aplicación interna es ChipNeMo, un modelo de lenguaje especializado en el diseño de semiconductores que facilita las tareas de ingeniería y la consulta de documentación técnica. Asimismo, NVIDIA BioNeMo permite aplicar la IA a la investigación biomolecular y al desarrollo de medicamentos.
 
 **Relación con los objetivos de negocio**
 
-La inteligencia artificial contribuye al objetivo de NVIDIA de mantener su liderazgo en la computación acelerada y ampliar su presencia en sectores como la medicina, la industria, la automoción y los centros de datos.
-
-El desarrollo de soluciones especializadas permite diversificar sus productos y servicios, mejorar su competitividad y satisfacer la creciente demanda de infraestructura para aplicaciones de inteligencia artificial.
+Esta tecnología contribuye a consolidar el liderazgo de NVIDIA en la computación acelerada, diversificar su oferta tecnológica y ampliar su presencia en sectores como la medicina, la robótica y la industria.
 
 **Mejora en IT y/o OT**
 
-La inteligencia artificial aporta mejoras tanto en IT como en OT.
-
-En IT, permite automatizar tareas de desarrollo de software, analizar grandes cantidades de información, optimizar recursos informáticos y facilitar la toma de decisiones.
-
-En OT, permite implementar sistemas de visión artificial, robots autónomos, mantenimiento predictivo y mecanismos de supervisión industrial.
-
-La integración entre IT y OT se produce cuando los datos generados por sensores y maquinaria física son procesados por modelos de inteligencia artificial, cuyos resultados permiten mejorar las operaciones industriales y detectar posibles incidencias.
+En IT, facilita el análisis de datos, el desarrollo de software y la automatización de tareas. En OT, permite implementar sistemas de visión artificial, mantenimiento predictivo y robótica autónoma, favoreciendo la integración entre los sistemas informáticos y los procesos físicos.
 
 **Fuentes de información**
 
 - [NVIDIA Artificial Intelligence](https://www.nvidia.com/en-us/ai/)
-- [NVIDIA ChipNeMo: IA aplicada al diseño de semiconductores](https://blogs.nvidia.com/blog/llm-semiconductors-chip-nemo/)
-- [Caso de estudio: Astellas Pharma y NVIDIA BioNeMo](https://www.nvidia.com/en-us/case-studies/astellas-antibody-language-model-with-bionemo/)
+- [NVIDIA ChipNeMo](https://blogs.nvidia.com/blog/llm-semiconductors-chip-nemo/)
+- [NVIDIA BioNeMo](https://www.nvidia.com/en-us/clara/bionemo/)
 
 ### 3.2. Internet de las Cosas (IoT)
 
 **Definición**
 
-El Internet de las Cosas (IoT) consiste en la interconexión de dispositivos físicos mediante redes de comunicación, permitiendo la recopilación, transmisión e intercambio de datos entre sensores, maquinaria, aplicaciones y sistemas informáticos.
-
-Su finalidad es facilitar la supervisión, el control y la automatización de procesos físicos mediante tecnologías digitales.
+El Internet de las Cosas (IoT) consiste en la interconexión de dispositivos físicos mediante redes de comunicación, permitiendo recopilar, transmitir y procesar datos para supervisar y automatizar procesos.
 
 **Características principales**
 
-- Interconexión de dispositivos físicos, sensores y sistemas informáticos.
-- Recopilación y transmisión de datos en tiempo real.
-- Monitorización y gestión remota de dispositivos.
-- Procesamiento local de información mediante Edge Computing, reduciendo la latencia.
-- Integración con plataformas de inteligencia artificial y computación en la nube.
+- Interconexión de dispositivos, sensores y maquinaria.
+- Recopilación de datos y monitorización en tiempo real.
+- Procesamiento local mediante Edge Computing, reduciendo la latencia.
 
 **Aplicación en la empresa**
 
-NVIDIA desarrolla soluciones destinadas a combinar el Internet de las Cosas con la inteligencia artificial, dando lugar a un modelo tecnológico conocido como AIoT (Artificial Intelligence of Things).
+NVIDIA combina el IoT con la inteligencia artificial mediante plataformas como NVIDIA Jetson, que permiten ejecutar modelos de IA directamente en dispositivos conectados, cámaras inteligentes y robots.
 
-Una de sus principales plataformas en este ámbito es NVIDIA Jetson, diseñada para ejecutar aplicaciones de inteligencia artificial directamente en dispositivos conectados, como cámaras inteligentes, robots, sensores y sistemas industriales.
-
-Además, NVIDIA Jetson Platform Services proporciona herramientas para la monitorización de dispositivos, la gestión de aplicaciones y la comunicación entre sistemas situados en el borde de la red y plataformas en la nube.
-
-Un ejemplo real es la empresa Deltia AI, que utiliza NVIDIA Jetson y NVIDIA Metropolis para analizar mediante cámaras inteligentes los procesos de las líneas de producción industrial. Esta solución permite identificar ineficiencias, detectar problemas operativos y mejorar la organización de los procesos de fabricación.
+Un ejemplo real es Deltia AI, que utiliza NVIDIA Jetson y NVIDIA Metropolis para supervisar líneas de producción industrial, detectar ineficiencias y optimizar los procesos de fabricación.
 
 **Relación con los objetivos de negocio**
 
-El desarrollo de tecnologías IoT permite a NVIDIA ampliar su mercado más allá de los videojuegos y los centros de datos, ofreciendo soluciones especializadas para la automatización industrial, la robótica, las ciudades inteligentes y otros sistemas conectados.
-
-Esta tecnología contribuye a la diversificación de su actividad empresarial y fortalece su posición en el mercado de la computación en el borde y la inteligencia artificial aplicada a entornos físicos.
+Esta tecnología permite a NVIDIA diversificar su actividad empresarial y ampliar su presencia en los mercados de la automatización industrial, la robótica y los dispositivos inteligentes.
 
 **Mejora en IT y/o OT**
 
-El Internet de las Cosas beneficia especialmente a las tecnologías de operación (OT), ya que permite supervisar maquinaria, recopilar información de sensores y detectar anomalías durante los procesos industriales.
-
-En IT, facilita el almacenamiento, procesamiento y análisis centralizado de los datos procedentes de los dispositivos conectados.
-
-La integración IT-OT se consigue mediante la comunicación entre los equipos físicos y los sistemas informáticos, permitiendo transformar los datos operativos en información útil para la toma de decisiones, el mantenimiento predictivo y la optimización de recursos.
+En IT, facilita la recopilación, el almacenamiento y el análisis de datos. En OT, permite supervisar maquinaria y detectar anomalías en tiempo real. La integración IT-OT convierte los datos operativos en información útil para optimizar los procesos industriales.
 
 **Fuentes de información**
 
 - [NVIDIA Edge Computing](https://www.nvidia.com/en-us/edge-computing/)
-- [Documentación oficial de NVIDIA Jetson Platform Services](https://docs.nvidia.com/jetson/jps/)
-- [Caso de estudio: Deltia AI, NVIDIA Metropolis y Jetson](https://blogs.nvidia.com/blog/deltia-ai-metropolis-jetson/)
+- [NVIDIA Jetson Platform Services](https://docs.nvidia.com/jetson/jps/)
+- [Caso de estudio: Deltia AI](https://blogs.nvidia.com/blog/deltia-ai-metropolis-jetson/)
 
 ### 3.3. Ciberseguridad
 
 **Definición**
 
-La ciberseguridad es el conjunto de tecnologías, procedimientos y medidas destinadas a proteger los sistemas informáticos, las redes, los dispositivos y la información frente a accesos no autorizados, ataques informáticos, pérdidas de datos y otras amenazas digitales.
-
-Sus principales objetivos son garantizar la confidencialidad, integridad y disponibilidad de la información.
+La ciberseguridad comprende el conjunto de tecnologías y procedimientos destinados a proteger los sistemas informáticos, las redes y los datos frente a amenazas digitales, garantizando su confidencialidad, integridad y disponibilidad.
 
 **Características principales**
 
 - Detección, prevención y respuesta ante amenazas informáticas.
-- Protección de datos mediante mecanismos de cifrado y control de acceso.
-- Monitorización continua de redes, sistemas y aplicaciones.
-- Identificación y gestión de vulnerabilidades de software.
-- Aplicación de arquitecturas de seguridad basadas en el modelo Zero Trust.
-- Utilización de inteligencia artificial para detectar comportamientos anómalos.
+- Protección de datos mediante cifrado y control de acceso.
+- Monitorización de sistemas y detección de anomalías mediante IA.
 
 **Aplicación en la empresa**
 
-NVIDIA integra la ciberseguridad tanto en sus procesos internos de desarrollo de software como en las soluciones tecnológicas que proporciona a otras empresas.
+NVIDIA desarrolla soluciones como NVIDIA Morpheus, un framework de ciberseguridad basado en IA, y NVIDIA BlueField, que permite acelerar funciones de protección, cifrado y segmentación de redes.
 
-Entre sus principales tecnologías se encuentra NVIDIA Morpheus, un framework de ciberseguridad que utiliza inteligencia artificial y computación acelerada para analizar grandes volúmenes de información, identificar amenazas y detectar comportamientos anómalos.
-
-Asimismo, NVIDIA BlueField incorpora unidades de procesamiento de datos (DPU) que permiten ejecutar funciones de seguridad, como el cifrado, la segmentación de redes y la detección de intrusiones, reduciendo la carga de trabajo de los procesadores principales.
-
-Un ejemplo de aplicación interna es Agent Morpheus, una solución integrada con los registros de contenedores y las herramientas de seguridad de NVIDIA. Esta tecnología utiliza inteligencia artificial generativa para analizar vulnerabilidades de software y facilitar su evaluación por parte de los especialistas en seguridad.
-
-Por otra parte, NVIDIA dispone de un equipo denominado PSIRT (Product Security Incident Response Team), responsable de investigar, gestionar y coordinar la resolución de vulnerabilidades relacionadas con sus productos.
+Un ejemplo de aplicación interna es Agent Morpheus, que utiliza inteligencia artificial generativa para analizar vulnerabilidades de software y facilitar su evaluación por parte de los especialistas en seguridad.
 
 **Relación con los objetivos de negocio**
 
-La ciberseguridad contribuye a proteger la propiedad intelectual de NVIDIA, sus infraestructuras tecnológicas, sus productos y la información de sus clientes.
-
-Además, permite reforzar la confianza de las organizaciones que utilizan sus plataformas, reducir los riesgos asociados a incidentes informáticos y favorecer la continuidad de las operaciones empresariales.
-
-El desarrollo de soluciones de seguridad también permite a NVIDIA ampliar su oferta comercial en sectores que requieren infraestructuras digitales de alto rendimiento y elevados niveles de protección.
+La ciberseguridad permite proteger la propiedad intelectual, las infraestructuras digitales y los productos de NVIDIA, reducir los riesgos operativos y reforzar la confianza de sus clientes.
 
 **Mejora en IT y/o OT**
 
-En IT, la ciberseguridad mejora la protección de servidores, aplicaciones, redes, datos y plataformas de inteligencia artificial, reduciendo los riesgos asociados a vulnerabilidades y accesos no autorizados.
-
-En OT, las soluciones de seguridad permiten proteger los dispositivos conectados, los sistemas de control industrial y las infraestructuras físicas frente a amenazas digitales.
-
-La integración IT-OT requiere mecanismos de seguridad capaces de proteger el intercambio de información entre ambos entornos, evitando que una amenaza originada en los sistemas informáticos pueda comprometer los procesos físicos de una organización.
+En IT, mejora la protección de servidores, aplicaciones, redes y datos. En OT, las soluciones de seguridad contribuyen a proteger los dispositivos conectados y las infraestructuras industriales. Su integración permite reducir los riesgos derivados de la comunicación entre ambos entornos.
 
 **Fuentes de información**
 
 - [NVIDIA Cybersecurity](https://www.nvidia.com/en-us/solutions/ai/cybersecurity/)
-- [Documentación oficial de NVIDIA Morpheus](https://docs.nvidia.com/morpheus/)
-- [NVIDIA: aplicación de IA generativa al análisis de vulnerabilidades](https://developer.nvidia.com/blog/applying-generative-ai-for-cve-analysis-at-an-enterprise-scale/)
-- [Políticas de seguridad de NVIDIA PSIRT](https://www.nvidia.com/en-us/security/psirt-policies/)
-- [NVIDIA: ciberseguridad aplicada a entornos OT](https://www.nvidia.com/en-us/use-cases/operational-technology-security/)
+- [NVIDIA Morpheus](https://docs.nvidia.com/morpheus/)
+- [NVIDIA: IA generativa aplicada al análisis de vulnerabilidades](https://developer.nvidia.com/blog/applying-generative-ai-for-cve-analysis-at-an-enterprise-scale/)
 
 ### 3.4. Computación en la nube (Cloud Computing)
 
 **Definición**
 
-La computación en la nube es un modelo tecnológico que permite acceder bajo demanda a recursos informáticos, como servidores, almacenamiento, redes, aplicaciones y capacidad de procesamiento, mediante una conexión de red.
-
-Este modelo permite utilizar y ampliar los recursos computacionales sin necesidad de adquirir y gestionar toda la infraestructura física de forma local.
+La computación en la nube es un modelo tecnológico que proporciona acceso bajo demanda a recursos informáticos, como servidores, almacenamiento, aplicaciones y capacidad de procesamiento, mediante una conexión de red.
 
 **Características principales**
 
-- Acceso bajo demanda a recursos informáticos.
-- Escalabilidad y adaptación de los recursos según las necesidades.
-- Acceso remoto a servicios y aplicaciones.
-- Utilización de infraestructuras compartidas y virtualizadas.
-- Optimización de la inversión inicial en infraestructura informática.
-- Disponibilidad de servicios mediante modelos como IaaS, PaaS y SaaS.
+- Escalabilidad y disponibilidad de recursos bajo demanda.
+- Acceso remoto a infraestructuras y servicios informáticos.
+- Reducción de la necesidad de adquirir y mantener infraestructura física propia.
 
 **Aplicación en la empresa**
 
-NVIDIA desarrolla infraestructuras de computación en la nube especializadas en inteligencia artificial y computación de alto rendimiento (HPC).
+NVIDIA ofrece soluciones de computación en la nube especializadas en inteligencia artificial y computación de alto rendimiento mediante NVIDIA DGX Cloud, en colaboración con proveedores como AWS, Microsoft Azure y Oracle Cloud.
 
-Una de sus principales soluciones es NVIDIA DGX Cloud, una plataforma que proporciona acceso a infraestructura acelerada mediante GPU, herramientas de software y recursos destinados al entrenamiento y desarrollo de modelos de inteligencia artificial a gran escala.
-
-NVIDIA colabora con proveedores de servicios en la nube, como Microsoft Azure, Amazon Web Services y Oracle Cloud Infrastructure, para facilitar el acceso de las empresas a sus tecnologías.
-
-Un ejemplo de aplicación interna es el desarrollo de NVIDIA Nemotron, una familia de modelos de inteligencia artificial entrenados y optimizados mediante NVIDIA DGX Cloud.
-
-Otro ejemplo real es Deloitte, que utiliza NVIDIA DGX Cloud sobre Oracle Cloud Infrastructure y la plataforma NVIDIA BioNeMo en su solución Quartz Atlas AI, destinada a acelerar los procesos de investigación y descubrimiento de medicamentos.
+Un ejemplo real es Deloitte, que utiliza NVIDIA DGX Cloud y NVIDIA BioNeMo en su plataforma Quartz Atlas AI para acelerar la investigación y el descubrimiento de medicamentos.
 
 **Relación con los objetivos de negocio**
 
-La computación en la nube permite a NVIDIA ampliar su modelo de negocio, complementando la comercialización de hardware con servicios de infraestructura y plataformas de software.
-
-Esta tecnología facilita el acceso de organizaciones de diferentes tamaños a recursos computacionales de alto rendimiento, reduciendo la necesidad de realizar grandes inversiones iniciales en infraestructura propia.
-
-Asimismo, contribuye a consolidar la posición de NVIDIA en el mercado de los centros de datos y a satisfacer la demanda de capacidad de procesamiento para aplicaciones de inteligencia artificial.
+Esta tecnología permite a NVIDIA complementar la comercialización de hardware con servicios en la nube, ampliar su mercado y facilitar el acceso empresarial a recursos computacionales de alto rendimiento.
 
 **Mejora en IT y/o OT**
 
-La computación en la nube aporta mejoras principalmente en IT, ya que facilita la gestión centralizada de recursos informáticos, el almacenamiento de datos, el desarrollo de aplicaciones y la ejecución de procesos computacionales complejos.
-
-En OT, permite complementar los sistemas industriales mediante plataformas de análisis remoto, simulación, mantenimiento predictivo y almacenamiento de información operativa.
-
-La integración IT-OT se consigue mediante la transmisión de datos desde sensores, maquinaria y dispositivos conectados hacia plataformas en la nube, donde pueden almacenarse y analizarse para mejorar los procesos industriales.
-
-En aplicaciones que requieren respuestas inmediatas, la computación en la nube puede combinarse con Edge Computing, permitiendo procesar localmente las tareas críticas y utilizar la nube para análisis avanzados y entrenamiento de modelos.
+En IT, facilita la gestión de recursos informáticos, el almacenamiento de datos y la ejecución de aplicaciones complejas. En OT, permite analizar datos industriales, realizar simulaciones y aplicar mantenimiento predictivo. Su combinación con Edge Computing favorece la integración IT-OT sin depender de la nube para las operaciones críticas en tiempo real.
 
 **Fuentes de información**
 
 - [NVIDIA DGX Cloud](https://www.nvidia.com/en-us/data-center/dgx-cloud/)
-- [Caso de estudio: Deloitte y NVIDIA DGX Cloud](https://www.nvidia.com/es-es/case-studies/generative-ai-in-drug-discovery/)
-- [NIST: definición oficial de Cloud Computing](https://csrc.nist.gov/pubs/sp/800/145/final)
+- [Caso de estudio: Deloitte y NVIDIA](https://www.nvidia.com/es-es/case-studies/generative-ai-in-drug-discovery/)
+- [NIST: definición de Cloud Computing](https://csrc.nist.gov/pubs/sp/800/145/final)
