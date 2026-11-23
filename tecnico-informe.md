@@ -1,6 +1,6 @@
 # Informe THD: NVIDIA Corporation
 
-**Práctica T03 · Digitalización aplicada a los sectores productivos · Criterio 2.7**
+**Práctica T03 · Digitalización aplicada a los sectores productivos**
 
 **Autores:** Kyle Cardano  
 **Fecha:** 24/11/2026  
