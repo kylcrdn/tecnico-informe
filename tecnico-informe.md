@@ -5,7 +5,7 @@
 **Autores:** Kyle Cardano  
 **Fecha:** 24/11/2026  
 **Módulo:** 1º DAW - DIGI  
-**Repositorio de GitHub:** [PENDIENTE: enlace al repositorio]
+**Repositorio de GitHub:** [tecnico-informe](https://github.com/kylcrdn/tecnico-informe)
 
 ## 1. Datos de la empresa
 
