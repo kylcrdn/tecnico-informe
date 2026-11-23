@@ -1,171 +1,98 @@
-# Informe THD: [Nombre de la empresa]
+# Informe THD: NVIDIA Corporation
 
-**Práctica T03 — Informe THD de una empresa del sector TIC**
+**Práctica T03 · Digitalización aplicada a los sectores productivos · Criterio 2.7**
 
 **Autores:** Kyle Cardano  
 **Fecha:** 24/11/2026  
-**Módulo:** 1º DAW - DIGI
+**Módulo:** 1º DAW - DIGI  
+**Repositorio de GitHub:** [PENDIENTE: enlace al repositorio]
 
 ## 1. Datos de la empresa
 
-| Información                   | Descripción                                                                                                                                                                                        |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Nombre de la empresa          | NVIDIA Corporation                                                                                                                                                                                 |
-| Web corporativa               | [NVIDIA](https://www.nvidia.com/es-es/)                                                                                                                                                            |
-| Sector concreto               | Tecnología, diseño de semiconductores, inteligencia artificial y computación acelerada                                                                                                             |
-| Tamaño aproximado             | Grande (multinacional)                                                                                                                                                                             |
-| Producto o servicio principal | Diseño y desarrollo de unidades de procesamiento gráfico (GPU), soluciones de inteligencia artificial, infraestructura de computación en la nube y plataformas de computación de alto rendimiento. |
+| Información      | Descripción                                                                                        |
+| ---------------- | -------------------------------------------------------------------------------------------------- |
+| Nombre           | NVIDIA Corporation                                                                                 |
+| Web corporativa  | [NVIDIA España](https://www.nvidia.com/es-es/)                                                     |
+| Sector           | TIC. Diseño de semiconductores, software e infraestructura de computación acelerada.               |
+| Tamaño           | Gran empresa multinacional.                                                                        |
+| Oferta principal | GPU, sistemas de computación y redes para centros de datos, y plataformas de software para IA [1]. |
 
-### Justificación de la elección
-
-He elegido NVIDIA por su liderazgo mundial en innovación tecnológica, especialmente en el ámbito de la inteligencia artificial, y por su capacidad de adaptación al mercado, evolucionando de una empresa centrada principalmente en el desarrollo de GPU para videojuegos a un referente en inteligencia artificial, centros de datos y computación acelerada, cuyas tecnologías han contribuido al crecimiento empresarial, al desarrollo de nuevos medicamentos, al avance de la robótica y a la automatización de procesos industriales, convirtiéndola en un ejemplo representativo de la transformación digital mediante las tecnologías habilitadoras digitales.
+He elegido NVIDIA porque diseña hardware y software para procesar información y ofrece plataformas que también se utilizan en entornos industriales. Esto permite comparar proyectos propios con aplicaciones en instalaciones de sus clientes.
 
 ## 2. Resumen ejecutivo
 
-NVIDIA Corporation es una empresa multinacional estadounidense del sector de las Tecnologías de la Información y la Comunicación (TIC), fundada en 1993 y especializada en el diseño de procesadores gráficos, plataformas de inteligencia artificial y sistemas de computación acelerada.
+El informe analiza cuatro tecnologías habilitadoras digitales (THD) en NVIDIA: inteligencia artificial, internet de las cosas, ciberseguridad y computación en la nube. Los casos abarcan la asistencia al diseño de chips, la supervisión de líneas de montaje, el análisis de vulnerabilidades de software y el entrenamiento de modelos en la nube.
 
-Su actividad empresarial se centra en el desarrollo de soluciones de hardware y software destinadas a mejorar la capacidad de procesamiento de datos, resolver problemas computacionales complejos e impulsar la transformación digital de diferentes sectores económicos e industriales.
-
-En el presente informe se identifican y analizan cuatro tecnologías habilitadoras digitales (THD) presentes en el ecosistema tecnológico de NVIDIA:
-
-- **Inteligencia artificial (IA):** desarrollo, entrenamiento y ejecución de modelos de aprendizaje automático mediante GPU y plataformas como NVIDIA CUDA y NVIDIA AI Enterprise.
-
-- **Internet de las Cosas (IoT):** procesamiento de datos en tiempo real procedentes de dispositivos inteligentes, sensores y sistemas industriales mediante plataformas de computación en el borde, como NVIDIA Jetson.
-
-- **Ciberseguridad:** protección de infraestructuras digitales, redes y datos mediante soluciones de seguridad y detección inteligente de amenazas, como NVIDIA Morpheus y NVIDIA BlueField.
-
-- **Computación en la nube (Cloud Computing):** acceso a recursos computacionales escalables y de alto rendimiento mediante servicios como NVIDIA DGX Cloud, destinados principalmente al desarrollo y ejecución de aplicaciones de inteligencia artificial.
-
-La integración de estas tecnologías permite optimizar el procesamiento de datos, mejorar la eficiencia operativa, automatizar procesos y reforzar la seguridad de las infraestructuras digitales.
-
-Asimismo, las soluciones de NVIDIA favorecen la convergencia entre las tecnologías de la información (IT) y las tecnologías de operación (OT), facilitando la comunicación entre los sistemas informáticos y los dispositivos físicos utilizados en entornos industriales.
+En el informe, **IT** se refiere a las aplicaciones, los datos y la infraestructura informática. **OT** se refiere a los equipos y sistemas que supervisan o controlan procesos físicos. El vínculo más directo aparece en Deltia AI: las imágenes de la línea de montaje se convierten en indicadores que el personal consulta en un panel.
 
 ## 3. Análisis de las tecnologías habilitadoras digitales
 
 ### 3.1. Inteligencia artificial (IA)
 
-**Definición**
+**Definición.** Conjunto de técnicas que permiten a un sistema realizar tareas como reconocer patrones, generar texto o interpretar imágenes.
 
-La inteligencia artificial (IA) es una tecnología que permite desarrollar sistemas capaces de aprender, analizar datos, reconocer patrones y tomar decisiones mediante algoritmos y modelos computacionales.
+**Características.** Los modelos de aprendizaje automático se entrenan con datos, se pueden adaptar a un dominio y, durante la inferencia, producen resultados a partir de entradas nuevas.
 
-**Características principales**
+**Aplicación y objetivo de negocio.** NVIDIA Research evaluó ChipNeMo, un modelo de lenguaje adaptado al diseño de chips. Una de las pruebas fue un asistente que respondía a preguntas de ingeniería a partir de documentación especializada. También se evaluó la generación de scripts para herramientas de automatización del diseño electrónico. El proyecto explora cómo reducir el tiempo que el personal dedica a buscar información y preparar tareas de diseño, una actividad central para NVIDIA [2, 3].
 
-- Aprendizaje automático (Machine Learning) y aprendizaje profundo (Deep Learning).
-- Procesamiento paralelo de grandes volúmenes de datos mediante GPU.
-- Automatización de tareas, análisis predictivo y generación de contenido.
+**Mejora IT-OT y evidencia.** ChipNeMo es una aplicación de IT confirmada en un proyecto de investigación sobre diseño de hardware. Las fuentes describen pruebas en herramientas de ingeniería. La conexión operativa de la IA se confirma en el caso de Deltia: un modelo de visión interpreta imágenes de la línea y genera marcas temporales que el personal utiliza para localizar cuellos de botella [4].
 
-**Aplicación en la empresa**
+### 3.2. Internet de las cosas (IoT)
 
-NVIDIA desarrolla plataformas de hardware y software para el entrenamiento y la ejecución de modelos de IA, como CUDA, TensorRT y NVIDIA AI Enterprise.
+**Definición.** Conexión de dispositivos físicos a una red para recoger, intercambiar o procesar datos sobre su entorno o funcionamiento.
 
-Un ejemplo de aplicación interna es ChipNeMo, un modelo de lenguaje especializado en el diseño de semiconductores que facilita las tareas de ingeniería y la consulta de documentación técnica. Asimismo, NVIDIA BioNeMo permite aplicar la IA a la investigación biomolecular y al desarrollo de medicamentos.
+**Características.** Los sensores capturan datos del entorno, los dispositivos conectados transmiten datos y la computación en el borde permite procesarlos cerca de su origen.
 
-**Relación con los objetivos de negocio**
+**Aplicación y objetivo de negocio.** NVIDIA ofrece módulos Jetson y servicios de software para desplegar aplicaciones en el borde. Deltia AI integra Jetson AGX Orin y NVIDIA Metropolis para procesar vídeo de cámaras instaladas en líneas de montaje. El caso muestra cómo NVIDIA amplía su mercado al suministrar hardware y software a empresas de automatización industrial [4, 5].
 
-Esta tecnología contribuye a consolidar el liderazgo de NVIDIA en la computación acelerada, diversificar su oferta tecnológica y ampliar su presencia en sectores como la medicina, la robótica y la industria.
-
-**Mejora en IT y/o OT**
-
-En IT, facilita el análisis de datos, el desarrollo de software y la automatización de tareas. En OT, permite implementar sistemas de visión artificial, mantenimiento predictivo y robótica autónoma, favoreciendo la integración entre los sistemas informáticos y los procesos físicos.
-
-**Fuentes de información**
-
-- [NVIDIA Artificial Intelligence](https://www.nvidia.com/en-us/ai/)
-- [NVIDIA ChipNeMo](https://blogs.nvidia.com/blog/llm-semiconductors-chip-nemo/)
-- [NVIDIA BioNeMo](https://www.nvidia.com/en-us/clara/bionemo/)
-
-### 3.2. Internet de las Cosas (IoT)
-
-**Definición**
-
-El Internet de las Cosas (IoT) consiste en la interconexión de dispositivos físicos mediante redes de comunicación, permitiendo recopilar, transmitir y procesar datos para supervisar y automatizar procesos.
-
-**Características principales**
-
-- Interconexión de dispositivos, sensores y maquinaria.
-- Recopilación de datos y monitorización en tiempo real.
-- Procesamiento local mediante Edge Computing, reduciendo la latencia.
-
-**Aplicación en la empresa**
-
-NVIDIA combina el IoT con la inteligencia artificial mediante plataformas como NVIDIA Jetson, que permiten ejecutar modelos de IA directamente en dispositivos conectados, cámaras inteligentes y robots.
-
-Un ejemplo real es Deltia AI, que utiliza NVIDIA Jetson y NVIDIA Metropolis para supervisar líneas de producción industrial, detectar ineficiencias y optimizar los procesos de fabricación.
-
-**Relación con los objetivos de negocio**
-
-Esta tecnología permite a NVIDIA diversificar su actividad empresarial y ampliar su presencia en los mercados de la automatización industrial, la robótica y los dispositivos inteligentes.
-
-**Mejora en IT y/o OT**
-
-En IT, facilita la recopilación, el almacenamiento y el análisis de datos. En OT, permite supervisar maquinaria y detectar anomalías en tiempo real. La integración IT-OT convierte los datos operativos en información útil para optimizar los procesos industriales.
-
-**Fuentes de información**
-
-- [NVIDIA Edge Computing](https://www.nvidia.com/en-us/edge-computing/)
-- [NVIDIA Jetson Platform Services](https://docs.nvidia.com/jetson/jps/)
-- [Caso de estudio: Deltia AI](https://blogs.nvidia.com/blog/deltia-ai-metropolis-jetson/)
+**Mejora IT-OT y evidencia.** En el despliegue documentado, las cámaras observan la línea de montaje (OT). Jetson procesa el vídeo junto a la línea y extrae marcas de llegada, trabajo y salida de cada puesto. El panel de Deltia (IT) muestra esa información al personal para comparar tiempos de ciclo y localizar cuellos de botella. El caso confirma la integración para supervisión de la producción [4].
 
 ### 3.3. Ciberseguridad
 
-**Definición**
+**Definición.** Conjunto de medidas destinadas a proteger sistemas, redes y datos y a preservar su confidencialidad, integridad y disponibilidad.
 
-La ciberseguridad comprende el conjunto de tecnologías y procedimientos destinados a proteger los sistemas informáticos, las redes y los datos frente a amenazas digitales, garantizando su confidencialidad, integridad y disponibilidad.
+**Características.** Incluye el control de acceso, la monitorización de eventos y la gestión de vulnerabilidades para priorizar correcciones.
 
-**Características principales**
+**Aplicación y objetivo de negocio.** NVIDIA documentó Agent Morpheus como ejemplo de IA aplicada al análisis defensivo de vulnerabilidades en software. El sistema ayuda a los analistas a determinar si una vulnerabilidad publicada afecta a un componente y a priorizar su revisión. Esto apoya el mantenimiento seguro del software. La documentación confirma el desarrollo del ejemplo. NVIDIA indica que el soporte de los contenedores de Morpheus dentro de AI Enterprise terminó en enero de 2026 [6, 7, 8].
 
-- Detección, prevención y respuesta ante amenazas informáticas.
-- Protección de datos mediante cifrado y control de acceso.
-- Monitorización de sistemas y detección de anomalías mediante IA.
+**Mejora IT-OT y evidencia.** El caso documenta un uso de IT. Como aplicación potencial, el inventario informático podría incorporar versiones del software de las pasarelas industriales (OT). El equipo de seguridad podría revisar qué pasarelas están afectadas y coordinar las actualizaciones con planta en una ventana de mantenimiento. Las fuentes citadas dejan este despliegue industrial sin confirmar [6–8].
 
-**Aplicación en la empresa**
+### 3.4. Computación en la nube
 
-NVIDIA desarrolla soluciones como NVIDIA Morpheus, un framework de ciberseguridad basado en IA, y NVIDIA BlueField, que permite acelerar funciones de protección, cifrado y segmentación de redes.
+**Definición.** Modelo que permite acceder por red y bajo demanda a recursos informáticos compartidos, como servidores, almacenamiento y capacidad de cálculo.
 
-Un ejemplo de aplicación interna es Agent Morpheus, que utiliza inteligencia artificial generativa para analizar vulnerabilidades de software y facilitar su evaluación por parte de los especialistas en seguridad.
+**Características.** Los recursos se aprovisionan bajo demanda, la capacidad se ajusta a la carga y el acceso se realiza de forma remota.
 
-**Relación con los objetivos de negocio**
+**Aplicación y objetivo de negocio.** El caso de Deloitte confirma que Quartz Atlas AI utiliza NVIDIA DGX Cloud en Oracle Cloud Infrastructure para entrenar modelos que trabajan con secuencias químicas y de proteínas. NVIDIA ofrece así acceso remoto a infraestructura de cálculo acelerado para clientes que necesitan entrenar modelos especializados [9, 10].
 
-La ciberseguridad permite proteger la propiedad intelectual, las infraestructuras digitales y los productos de NVIDIA, reducir los riesgos operativos y reforzar la confianza de sus clientes.
+**Mejora IT-OT y evidencia.** En Deloitte, la mejora documentada se sitúa en IT: el cliente accede a capacidad de cálculo para entrenar modelos. Un uso industrial potencial sería enviar históricos de vibración de una máquina (OT) a la nube (IT) para estudiar patrones de desgaste y devolver alertas al equipo de mantenimiento. El control inmediato de la máquina seguiría en planta. Las fuentes del caso dejan esa integración industrial sin confirmar [9, 10].
 
-**Mejora en IT y/o OT**
+## 4. Tabla comparativa de las THD
 
-En IT, mejora la protección de servidores, aplicaciones, redes y datos. En OT, las soluciones de seguridad contribuyen a proteger los dispositivos conectados y las infraestructuras industriales. Su integración permite reducir los riesgos derivados de la comunicación entre ambos entornos.
+| THD            | Aplicación documentada                                                 | Mejora y alcance IT-OT                                                                                   |
+| -------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| IA             | ChipNeMo en investigación de NVIDIA [2, 3]. Visión en Deltia [4].      | Asistencia al personal de diseño (IT). En Deltia, convierte imágenes de planta en indicadores (OT → IT). |
+| IoT            | Jetson y Metropolis en líneas de montaje de clientes de Deltia [4, 5]. | Conecta cámaras de planta con el panel de supervisión (OT → IT).                                         |
+| Ciberseguridad | Análisis defensivo de vulnerabilidades con Agent Morpheus [6–8].       | Apoya la priorización de revisiones (IT). Aplicación a pasarelas industriales potencial.                 |
+| Nube           | Entrenamiento de modelos en DGX Cloud por Deloitte [9, 10].            | Aporta capacidad de cálculo remota (IT). Análisis de históricos de planta en la nube como uso potencial. |
 
-**Fuentes de información**
+## 5. Conclusiones
 
-- [NVIDIA Cybersecurity](https://www.nvidia.com/en-us/solutions/ai/cybersecurity/)
-- [NVIDIA Morpheus](https://docs.nvidia.com/morpheus/)
-- [NVIDIA: IA generativa aplicada al análisis de vulnerabilidades](https://developer.nvidia.com/blog/applying-generative-ai-for-cve-analysis-at-an-enterprise-scale/)
+Considero que la **inteligencia artificial** es la THD más determinante para NVIDIA. La IA impulsa la demanda de sus sistemas acelerados y da valor al software y a servicios como DGX Cloud. En el ejercicio fiscal 2026, el mercado de centros de datos aportó unos 193.700 millones de dólares de un total de 215.938 millones, cerca del 90 %. Esa cifra corresponde al conjunto del negocio de centros de datos. NVIDIA atribuye su crecimiento a la computación acelerada y a la IA [1]. Sin la demanda de entrenamiento e inferencia, perderían peso dos usos centrales de su oferta de centros de datos [1, 9].
 
-### 3.4. Computación en la nube (Cloud Computing)
+El caso de Deltia muestra la mejora IT-OT más clara del informe. El personal puede usar datos extraídos de las cámaras para localizar retrasos en la línea. La ciberseguridad y la nube aportan mejoras informáticas demostradas, con aplicaciones industriales potenciales descritas en sus apartados.
 
-**Definición**
+## 6. Fuentes
 
-La computación en la nube es un modelo tecnológico que proporciona acceso bajo demanda a recursos informáticos, como servidores, almacenamiento, aplicaciones y capacidad de procesamiento, mediante una conexión de red.
+**Fecha de consulta de todas las fuentes:** 24/11/2026.
 
-**Características principales**
-
-- Escalabilidad y disponibilidad de recursos bajo demanda.
-- Acceso remoto a infraestructuras y servicios informáticos.
-- Reducción de la necesidad de adquirir y mantener infraestructura física propia.
-
-**Aplicación en la empresa**
-
-NVIDIA ofrece soluciones de computación en la nube especializadas en inteligencia artificial y computación de alto rendimiento mediante NVIDIA DGX Cloud, en colaboración con proveedores como AWS, Microsoft Azure y Oracle Cloud.
-
-Un ejemplo real es Deloitte, que utiliza NVIDIA DGX Cloud y NVIDIA BioNeMo en su plataforma Quartz Atlas AI para acelerar la investigación y el descubrimiento de medicamentos.
-
-**Relación con los objetivos de negocio**
-
-Esta tecnología permite a NVIDIA complementar la comercialización de hardware con servicios en la nube, ampliar su mercado y facilitar el acceso empresarial a recursos computacionales de alto rendimiento.
-
-**Mejora en IT y/o OT**
-
-En IT, facilita la gestión de recursos informáticos, el almacenamiento de datos y la ejecución de aplicaciones complejas. En OT, permite analizar datos industriales, realizar simulaciones y aplicar mantenimiento predictivo. Su combinación con Edge Computing favorece la integración IT-OT sin depender de la nube para las operaciones críticas en tiempo real.
-
-**Fuentes de información**
-
-- [NVIDIA DGX Cloud](https://www.nvidia.com/en-us/data-center/dgx-cloud/)
-- [Caso de estudio: Deloitte y NVIDIA](https://www.nvidia.com/es-es/case-studies/generative-ai-in-drug-discovery/)
-- [NIST: definición de Cloud Computing](https://csrc.nist.gov/pubs/sp/800/145/final)
+- [1] NVIDIA. [Informe anual del ejercicio fiscal 2026, resumen de resultados y mercados](https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-annual-report-web-Hyperlinks.pdf).
+- [2] Mingjie Liu y otros, NVIDIA Research. [ChipNeMo: Domain-Adapted LLMs for Chip Design](https://research.nvidia.com/publication/2023-10_chipnemo-domain-adapted-llms-chip-design).
+- [3] NVIDIA Blog. [Silicon Volley: Designers Tap Generative AI for a Chip Assist](https://blogs.nvidia.com/blog/llm-semiconductors-chip-nemo/).
+- [4] Scott Martin, NVIDIA Blog. [Manufacturing Intelligence: Deltia AI Delivers Assembly Line Gains With NVIDIA Metropolis and Jetson](https://blogs.nvidia.com/blog/deltia-ai-metropolis-jetson/).
+- [5] NVIDIA Docs. [Jetson Platform Services](https://docs.nvidia.com/moj/moj-overview.html).
+- [6] NVIDIA Technical Blog. [Applying Generative AI for CVE Analysis at an Enterprise Scale](https://developer.nvidia.com/blog/applying-generative-ai-for-cve-analysis-at-an-enterprise-scale).
+- [7] NVIDIA Docs. [Morpheus Documentation, versión 25.06](https://docs.nvidia.com/morpheus/).
+- [8] NVIDIA Docs. [NVIDIA AI Enterprise Lifecycle Policy: End of Life Notices](https://docs.nvidia.com/ai-enterprise/lifecycle/latest/eol-notices.html).
+- [9] NVIDIA. [Construcción de canales de descubrimiento de fármacos con IA generativa: Deloitte](https://www.nvidia.com/es-es/case-studies/generative-ai-in-drug-discovery/).
+- [10] Deloitte, sesión de GTC 2024. [Atlas AI: Drug Discovery at the Speed of AI](https://www.nvidia.com/en-us/on-demand/session/gtc24-s62981/).
